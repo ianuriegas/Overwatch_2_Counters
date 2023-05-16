@@ -2,186 +2,466 @@
   "Tank": [
     {
       "name": "D.Va",
-      "counters": ["Sombra", "Zarya", "Roadhog", "Junkrat"],
+      "counters": [
+        "Brigitte",
+        "Doomfist",
+        "Moira",
+        "Reaper",
+        "Roadhog",
+        "Sigma",
+        "Symmetra",
+        "Winston",
+        "Zarya"
+      ],
       "image": "https://www.overbuff.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdva.44c675ba.png&w=640&q=100"
     },
     {
       "name": "Doomfist",
-      "counters": ["Reaper", "Pharah", "Genji", "Echo"],
+      "counters": [
+        "Ana",
+        "Ashe",
+        "Brigitte",
+        "Cassidy",
+        "Mei",
+        "Pharah",
+        "Roadhog"
+      ],
       "image": "https://www.overbuff.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdoomfist.b1eb0045.png&w=640&q=100"
     },
     {
       "name": "Junker Queen",
-      "counters": ["Bastion", "Zenyatta", "Mei", "Orisa"],
+      "counters": [
+        "Ana",
+        "Ashe",
+        "Baptiste",
+        "Cassidy",
+        "Pharah",
+        "Soldier 76",
+        "Widowmaker",
+        "Zenyatta"
+      ],
       "image": "https://www.overbuff.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fjunker-queen.9152a217.png&w=640&q=100"
     },
     {
       "name": "Orisa",
-      "counters": ["Winston", "Zenyatta", "Junkrat", "Reaper"],
+      "counters": [
+        "Ana",
+        "Ashe",
+        "Baptiste",
+        "D.Va",
+        "Echo",
+        "Hanzo",
+        "Kiriko",
+        "Pharah",
+        "Reaper",
+        "Sojourn",
+        "Sombra",
+        "Soldier 76",
+        "Widowmaker",
+        "Zenyatta"
+      ],
       "image": "https://www.overbuff.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Forisa.81f07989.png&w=640&q=100"
     },
     {
+      "name": "Ramattra",
+      "counters": [
+        "Ana",
+        "Bastion",
+        "D.Va",
+        "Kiriko",
+        "Orisa",
+        "Roadhog",
+        "Symmetra",
+        "Tracer",
+        "Zenyatta"
+      ],
+      "image": "https://www.overbuff.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Framattra.367eb6f2.png&w=640&q=100"
+    },
+    {
       "name": "Reinhardt",
-      "counters": ["Reaper", "Bastion", "Pharah", "Junkrat"],
+      "counters": [
+        "Ana",
+        "Brigitte",
+        "Junkrat",
+        "Mei",
+        "Pharah",
+        "Reaper",
+        "Sombra",
+        "Tracer"
+      ],
       "image": "https://www.overbuff.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Freinhardt.06fef761.png&w=640&q=100"
     },
     {
       "name": "Roadhog",
-      "counters": ["Ana", "Zarya", "Widowmaker", "Reaper"],
+      "counters": [
+        "Ana",
+        "Genji",
+        "Echo",
+        "Junkrat",
+        "Pharah",
+        "Reaper",
+        "Sombra",
+        "Tracer",
+        "Widowmaker"
+      ],
       "image": "https://www.overbuff.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Froadhog.8e435c03.png&w=640&q=100"
     },
     {
       "name": "Sigma",
-      "counters": ["Orisa", "Reaper", "Genji", "Reinhardt"],
+      "counters": [
+        "Genji",
+        "Lucio",
+        "Moira",
+        "Sombra",
+        "Symmetra",
+        "Tracer",
+        "Zarya"
+      ],
       "image": "https://www.overbuff.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsigma.f5fc6bfe.png&w=640&q=100"
     },
     {
       "name": "Winston",
-      "counters": ["Roadhog", "Ana", "Junkrat", "Moira"],
+      "counters": ["Ana", "Brigitte", "Mei", "Roadhog"],
       "image": "https://www.overbuff.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fwinston.8c450351.png&w=640&q=100"
     },
     {
       "name": "Wrecking Ball",
-      "counters": ["Sombra", "Reaper", "Bastion", "Pharah"],
+      "counters": ["Ana", "Brigitte", "Mei", "Roadhog", "Torbjorn"],
       "image": "https://www.overbuff.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fwrecking-ball.d60d9338.png&w=640&q=100"
     },
     {
       "name": "Zarya",
-      "counters": ["Pharah", "Sombra", "Zenyatta", "Bastion"],
+      "counters": ["Ashe", "Bastion", "D.Va", "Echo", "Pharah", "Widowmaker"],
       "image": "https://www.overbuff.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fzarya.d51374cc.png&w=640&q=100"
     }
   ],
   "Damage": [
     {
       "name": "Ashe",
-      "counters": ["Widowmaker", "Hanzo", "Tracer", "Reinhardt"],
+      "counters": [
+        "Doomfist",
+        "Echo",
+        "Genji",
+        "Reaper",
+        "Roadhog",
+        "Soldier 76",
+        "Sombra",
+        "Tracer"
+      ],
       "image": "https://www.overbuff.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fashe.14d6b98f.png&w=640&q=100"
     },
     {
       "name": "Bastion",
-      "counters": ["Roadhog", "Junkrat", "Ana", "Reaper"],
+      "counters": [
+        "Ana",
+        "Genji",
+        "Junkrat",
+        "Pharah",
+        "Roadhog",
+        "Sombra",
+        "Tracer",
+        "Zarya"
+      ],
       "image": "https://www.overbuff.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbastion.04ed39ed.png&w=640&q=100"
     },
     {
       "name": "Cassidy",
-      "counters": ["Widowmaker", "Winston", "Baptiste", "Tracer"],
+      "counters": ["Ana", "Ashe", "Bastion", "Genji", "Hanzo", "Widowmaker"],
       "image": "https://www.overbuff.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcassidy.9bd90c59.png&w=640&q=100"
     },
     {
       "name": "Echo",
-      "counters": ["Widowmaker", "Sojourn", "Hanzo", "Sombra"],
+      "counters": [
+        "Ana",
+        "Ashe",
+        "Baptiste",
+        "Cassidy",
+        "D.Va",
+        "Junker Queen",
+        "Moira",
+        "Reaper",
+        "Soldier 76",
+        "Widowmaker",
+        "Zarya"
+      ],
       "image": "https://www.overbuff.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fecho.ccb1790c.png&w=640&q=100"
     },
     {
       "name": "Genji",
-      "counters": ["Pharah", "Brigitte", "Zarya", "Ana"],
+      "counters": ["Brigitte", "Mei", "Moira", "Symmetra", "Winston", "Zarya"],
       "image": "https://www.overbuff.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fgenji.af8825d2.png&w=640&q=100"
     },
     {
       "name": "Hanzo",
-      "counters": ["Widowmaker", "Winston", "Genji", "D.Va"],
+      "counters": [
+        "D.Va",
+        "Genji",
+        "Lucio",
+        "Moira",
+        "Pharah",
+        "Sombra",
+        "Tracer",
+        "Wrecking Ball"
+      ],
       "image": "https://www.overbuff.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhanzo.e511f686.png&w=640&q=100"
     },
     {
       "name": "Junkrat",
-      "counters": ["Pharah", "Kiriko", "Echo", "Widowmaker"],
+      "counters": [
+        "Ashe",
+        "D.Va",
+        "Cassidy",
+        "Echo",
+        "Genji",
+        "Lucio",
+        "Pharah",
+        "Reaper",
+        "Roadhog",
+        "Soldier 76",
+        "Sombra",
+        "Tracer",
+        "Wrecking Ball"
+      ],
       "image": "https://www.overbuff.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fjunkrat.c0b799f7.png&w=640&q=100"
     },
     {
       "name": "Mei",
-      "counters": ["Pharah", "Sombra", "Widowmaker", "Soldier 76"],
+      "counters": ["Echo", "Pharah", "Reaper", "Sombra", "Tracer"],
       "image": "https://www.overbuff.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmei.23d45b27.png&w=640&q=100"
     },
     {
       "name": "Pharah",
-      "counters": ["Widowmaker", "Hanzo", "Sojourn", "Soldier 76"],
+      "counters": [
+        "Ana",
+        "Ashe",
+        "Baptiste",
+        "Cassidy",
+        "D.Va",
+        "Soldier 76",
+        "Sombra",
+        "Widowmaker"
+      ],
       "image": "https://www.overbuff.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fpharah.515460eb.png&w=640&q=100"
     },
     {
       "name": "Reaper",
-      "counters": ["Widowmaker", "Echo", "Pharah", "Zenyatta"],
+      "counters": [
+        "Ana",
+        "Ashe",
+        "Echo",
+        "Junkrat",
+        "Pharah",
+        "Ramattra",
+        "Widowmaker"
+      ],
       "image": "https://www.overbuff.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Freaper.3f37ea95.png&w=640&q=100"
     },
     {
       "name": "Sojourn",
-      "counters": ["Winston", "Zarya", "Widowmaker", "Lucio"],
+      "counters": [
+        "D.Va",
+        "Lucio",
+        "Orisa",
+        "Reaper",
+        "Tracer",
+        "Sigma",
+        "Sombra",
+        "Zarya"
+      ],
       "image": "https://www.overbuff.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsojourn.cda04a74.png&w=640&q=100"
     },
     {
       "name": "Soldier 76",
-      "counters": ["Roadhog", "Winston", "Genji", "Sigma"],
+      "counters": [
+        "Ana",
+        "Cassidy",
+        "D.Va",
+        "Junkrat",
+        "Reaper",
+        "Roadhog",
+        "Widowmaker"
+      ],
       "image": "https://www.overbuff.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsoldier-76.edb6d514.png&w=640&q=100"
     },
     {
       "name": "Sombra",
-      "counters": ["Hanzo", "Junkrat", "Widowmaker", "Tracer"],
+      "counters": [
+        "Ana",
+        "Brigitte",
+        "Junkrat",
+        "Mei",
+        "Moira",
+        "Pharah",
+        "Winston",
+        "Zarya"
+      ],
       "image": "https://www.overbuff.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsombra.ff034b0e.png&w=640&q=100"
     },
     {
       "name": "Symmetra",
-      "counters": ["D.Va", "Pharah", "Winston", "Junker Queen"],
+      "counters": [
+        "Echo",
+        "Junkrat",
+        "Pharah",
+        "Reaper",
+        "Sombra",
+        "Tracer",
+        "Winston"
+      ],
       "image": "https://www.overbuff.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsymmetra.3b3d2157.png&w=640&q=100"
     },
     {
       "name": "Torbjorn",
-      "counters": ["Pharah", "Widowmaker", "Ana", "Echo"],
+      "counters": [
+        "Ana",
+        "Bastion",
+        "Junkrat",
+        "Pharah",
+        "Sombra",
+        "Widowmaker"
+      ],
       "image": "https://www.overbuff.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ftorbjorn.fcf40b19.png&w=640&q=100"
     },
     {
       "name": "Tracer",
-      "counters": ["Winston", "Brigitte", "Pharah", "Torbjorn"],
+      "counters": ["Ana", "Junkrat", "Pharah", "Sombra", "Widowmaker"],
       "image": "https://www.overbuff.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ftracer.7a2b2332.png&w=640&q=100"
     },
     {
       "name": "Widowmaker",
-      "counters": ["Winston", "Wrecking Ball", "Sojourn", "Reinhardt"],
+      "counters": ["D.Va", "Genji", "Sombra", "Tracer", "Winston"],
       "image": "https://www.overbuff.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fwidowmaker.8138b3f1.png&w=640&q=100"
     }
   ],
   "Support": [
     {
       "name": "Ana",
-      "counters": ["D.Va", "Widowmaker", "Junker Queen", "Tracer"],
+      "counters": [
+        "Echo",
+        "Genji",
+        "Lucio",
+        "Moira",
+        "Pharah",
+        "Sombra",
+        "Tracer"
+      ],
       "image": "https://www.overbuff.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fana.7f5fb114.png&w=640&q=100"
     },
     {
       "name": "Baptiste",
-      "counters": ["D.Va", "Genji", "Hanzo", "Roadhog"],
+      "counters": [
+        "Ana",
+        "Echo",
+        "Genji",
+        "Hanzo",
+        "Lucio",
+        "Pharah",
+        "Reaper",
+        "Roadhog",
+        "Sombra",
+        "Tracer"
+      ],
       "image": "https://www.overbuff.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbaptiste.6737fd59.png&w=640&q=100"
     },
     {
       "name": "Brigitte",
-      "counters": ["Bastion", "Pharah", "Junkrat", "Hanzo"],
+      "counters": [
+        "Cassidy",
+        "Bastion",
+        "D.Va",
+        "Echo",
+        "Genji",
+        "Junkrat",
+        "Moira",
+        "Pharah",
+        "Sombra",
+        "Tracer",
+        "Widowmaker"
+      ],
       "image": "https://www.overbuff.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbrigitte.f2d1f7b6.png&w=640&q=100"
     },
     {
       "name": "Kiriko",
-      "counters": ["Widowmaker", "Sombra", "Sojourn", "Tracer"],
+      "counters": [
+        "Ana",
+        "Ashe",
+        "Baptiste",
+        "Cassidy",
+        "Doomfist",
+        "Genji",
+        "Moira",
+        "Reaper",
+        "Sojourn",
+        "Tracer",
+        "Widowmaker",
+        "Wrecking Ball"
+      ],
       "image": "https://www.overbuff.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fkiriko.2464e6a1.png&w=640&q=100"
     },
     {
       "name": "Lifeweaver",
-      "counter": ["", ""],
+      "counters": ["Ana", "Pharah", "Sigma", "Soldier 76", "Sombra"],
       "image": "https://www.overbuff.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flifeweaver.e81d7dc5.png&w=640&q=100"
     },
     {
       "name": "Lucio",
-      "counters": ["Pharah", "Torbjorn", "Moira", "Bastion"],
+      "counters": [
+        "Ashe",
+        "Cassidy",
+        "Moira",
+        "Soldier 76",
+        "Symmetra",
+        "Torbjorn",
+        "Winston",
+        "Zarya"
+      ],
       "image": "https://www.overbuff.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flucio.9fd9e6ae.png&w=640&q=100"
     },
     {
       "name": "Mercy",
-      "counters": ["Widowmaker", "Winston", "Roadhog", "Sojourn"],
+      "counters": [
+        "Ana",
+        "Ashe",
+        "Baptiste",
+        "Cassidy",
+        "Genji",
+        "Moira",
+        "Reaper",
+        "Roadhog",
+        "Soldier 76",
+        "Winston",
+        "Wrecking Ball"
+      ],
       "image": "https://www.overbuff.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmercy.ea1158d3.png&w=640&q=100"
     },
     {
       "name": "Moira",
-      "counters": ["Widowmaker", "Sombra", "Wrecking Ball", "Winston"],
+      "counters": [
+        "Ana",
+        "Ashe",
+        "Echo",
+        "Genji",
+        "Pharah",
+        "Reaper",
+        "Sojourn",
+        "Sombra",
+        "Soldier 76",
+        "Widowmaker"
+      ],
       "image": "https://www.overbuff.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmoira.63c6ec77.png&w=640&q=100"
     },
     {
       "name": "Zenyatta",
-      "counters": ["Junker Queen", "Winston", "Widowmaker", "Genji"],
+      "counters": [
+        "D.Va",
+        "Echo",
+        "Genji",
+        "Pharah",
+        "Reaper",
+        "Sigma",
+        "Tracer",
+        "Widowmaker"
+      ],
       "image": "https://www.overbuff.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fzenyatta.18715675.png&w=640&q=100"
     }
   ]

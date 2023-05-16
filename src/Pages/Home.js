@@ -10,6 +10,7 @@ import {
 import hero_info from "../Assetts/hero_info.json";
 import HeroSelect from "../Components/HeroSelect";
 import "../Assetts/home.css";
+import GenerateTeam from "../Components/GenerateTeam";
 
 function Home() {
   const [tankHero, setTankHero] = useState("");
@@ -69,70 +70,90 @@ function Home() {
           height: "88%",
           backgroundColor: "rgba(130, 130, 130, 0.9)",
           color: "white",
-          paddingBottom: "10%",
+          paddingBottom: "50%",
         }}
       >
-        <Stack spacing={3} alignItems="center" style={{}}>
-          <h2 style={{}}>Enemy Composition</h2>
-          <HeroSelect
-            label="Tank"
-            value={tankHero}
-            onChange={setTankHero}
-            options={hero_info.Tank}
-          />
-          <HeroSelect
-            label="Damage"
-            value={damageHeroOne}
-            onChange={handleDamageHeroOneChange}
-            options={hero_info.Damage}
-          />
-          <HeroSelect
-            label="Damage"
-            value={damageHeroTwo}
-            onChange={(value) => setDamageHeroTwo(value)}
-            options={damageHeroTwoOptions}
-          />
-          <HeroSelect
-            label="Support"
-            value={supportHeroOne}
-            onChange={handleSupportHeroOneChange}
-            options={hero_info.Support}
-          />
-          <HeroSelect
-            label="Support"
-            value={supportHeroTwo}
-            onChange={(value) => setSupportHeroTwo(value)}
-            options={supportHeroTwoOptions}
-          />
-          <div>
-            <Button
-              style={{
-                color: "limegreen",
-                backgroundColor: "transparent",
-                border: "2px solid limegreen",
-                transition: "background-color 0.3s ease",
-                width: "150%",
-              }}
-              onMouseOver={(e) => {
-                e.target.style.backgroundColor = "limegreen";
-                e.target.style.color = "white";
-              }}
-              onMouseOut={(e) => {
-                e.target.style.backgroundColor = "transparent";
-                e.target.style.color = "limegreen";
-              }}
-              onClick={handleGenerateClick}
-            >
-              Generate
-            </Button>
-          </div>
-          {generated ? (
-            <div style={{ paddingBottom: "10px" }}>
-              <h3>hi</h3>
+        <Stack direction={"row"}>
+          <Stack
+            spacing={3}
+            alignItems="center"
+            style={{ backgroundColor: "", width: "50%"}}
+          >
+            <h2 style={{}}>Enemy Composition</h2>
+            <HeroSelect
+              label="Tank"
+              value={tankHero}
+              onChange={setTankHero}
+              options={hero_info.Tank}
+            />
+            <HeroSelect
+              label="Damage"
+              value={damageHeroOne}
+              onChange={handleDamageHeroOneChange}
+              options={hero_info.Damage}
+            />
+            <HeroSelect
+              label="Damage"
+              value={damageHeroTwo}
+              onChange={(value) => setDamageHeroTwo(value)}
+              options={damageHeroTwoOptions}
+            />
+            <HeroSelect
+              label="Support"
+              value={supportHeroOne}
+              onChange={handleSupportHeroOneChange}
+              options={hero_info.Support}
+            />
+            <HeroSelect
+              label="Support"
+              value={supportHeroTwo}
+              onChange={(value) => setSupportHeroTwo(value)}
+              options={supportHeroTwoOptions}
+            />
+
+            <div>
+              <Button
+                style={{
+                  color: "limegreen",
+                  backgroundColor: "transparent",
+                  border: "2px solid limegreen",
+                  transition: "background-color 0.3s ease",
+                  width: "150%",
+                }}
+                onMouseOver={(e) => {
+                  e.target.style.backgroundColor = "limegreen";
+                  e.target.style.color = "white";
+                }}
+                onMouseOut={(e) => {
+                  e.target.style.backgroundColor = "transparent";
+                  e.target.style.color = "limegreen";
+                }}
+                onClick={handleGenerateClick}
+              >
+                Generate
+              </Button>
             </div>
-          ) : (
-            <></>
-          )}
+          </Stack>
+          <Stack
+            spacing={3}
+            alignItems="center"
+            style={{ backgroundColor: "", width: "50%" }}
+          >
+            {generated ? (
+              <div>
+                <GenerateTeam
+                  tankHero={tankHero}
+                  damageHeroOne={damageHeroOne}
+                  damageHeroTwo={damageHeroTwo}
+                  supportHeroOne={supportHeroOne}
+                  supportHeroTwo={supportHeroTwo}
+                  setGenerated={setGenerated}
+                />
+              </div>
+            ) : (
+              <></>
+            )}
+          </Stack>
         </Stack>
       </Card>
     </div>

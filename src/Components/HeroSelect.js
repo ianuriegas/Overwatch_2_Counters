@@ -5,7 +5,7 @@ function HeroSelect({ label, value, onChange, options }) {
     <Stack direction={"row"} style={{height: "70px"}}>
       <Typography
         style={{
-        //   backgroundColor: "blue",
+          backgroundColor: "",
           width: "100px",
           textAlign: "center",
           display: "flex",
