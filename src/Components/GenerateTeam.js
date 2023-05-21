@@ -104,7 +104,7 @@ function GenerateTeam({
   };
 
   return (
-    <div>
+    <div>ru
       <h2 style={{ color: "white" }}>Optimized Counters:</h2>
 
       {Object.entries(sortedCounterCounts)
